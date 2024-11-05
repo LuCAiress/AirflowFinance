@@ -1,0 +1,22 @@
+[2024-11-05T00:50:10.700-0300] {processor.py:186} INFO - Started process (PID=6141) to work on /home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-11-05T00:50:10.701-0300] {processor.py:914} INFO - Processing file /home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-11-05T00:50:10.703-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:50:10.702-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-11-05T00:50:10.713-0300] {processor.py:925} INFO - DAG(s) 'example_bash_operator' retrieved from /home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-11-05T00:50:10.803-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:50:10.803-0300] {override.py:1900} INFO - Created Permission View: can edit on DAG:example_bash_operator
+[2024-11-05T00:50:10.814-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:50:10.814-0300] {override.py:1900} INFO - Created Permission View: can read on DAG:example_bash_operator
+[2024-11-05T00:50:10.821-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:50:10.821-0300] {override.py:1900} INFO - Created Permission View: can delete on DAG:example_bash_operator
+[2024-11-05T00:50:10.832-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:50:10.832-0300] {override.py:1900} INFO - Created Permission View: can create on DAG Run:example_bash_operator
+[2024-11-05T00:50:10.841-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:50:10.840-0300] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:example_bash_operator
+[2024-11-05T00:50:10.851-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:50:10.851-0300] {override.py:1900} INFO - Created Permission View: can read on DAG Run:example_bash_operator
+[2024-11-05T00:50:10.863-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:50:10.862-0300] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:example_bash_operator
+[2024-11-05T00:50:10.863-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:50:10.863-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-05T00:50:10.876-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:50:10.876-0300] {dag.py:3262} INFO - Creating ORM DAG for example_bash_operator
+[2024-11-05T00:50:10.888-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:50:10.888-0300] {dag.py:4180} INFO - Setting next_dagrun for example_bash_operator to 2024-11-04 00:00:00+00:00, run_after=2024-11-05 00:00:00+00:00
+[2024-11-05T00:50:10.908-0300] {processor.py:208} INFO - Processing /home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.213 seconds
+[2024-11-05T00:51:06.017-0300] {processor.py:186} INFO - Started process (PID=6823) to work on /home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-11-05T00:51:06.021-0300] {processor.py:914} INFO - Processing file /home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-11-05T00:51:06.024-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:51:06.024-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-11-05T00:51:06.034-0300] {processor.py:925} INFO - DAG(s) 'example_bash_operator' retrieved from /home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-11-05T00:51:06.054-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:51:06.054-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-05T00:51:06.072-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:51:06.072-0300] {dag.py:4180} INFO - Setting next_dagrun for example_bash_operator to 2024-11-04 00:00:00+00:00, run_after=2024-11-05 00:00:00+00:00
+[2024-11-05T00:51:06.093-0300] {processor.py:208} INFO - Processing /home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.082 seconds

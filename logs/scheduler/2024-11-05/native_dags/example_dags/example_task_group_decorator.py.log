@@ -1,0 +1,22 @@
+[2024-11-05T00:49:26.746-0300] {processor.py:186} INFO - Started process (PID=5457) to work on /home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2024-11-05T00:49:26.747-0300] {processor.py:914} INFO - Processing file /home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2024-11-05T00:49:26.748-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:49:26.748-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2024-11-05T00:49:26.760-0300] {processor.py:925} INFO - DAG(s) 'example_task_group_decorator' retrieved from /home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2024-11-05T00:49:26.835-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:49:26.834-0300] {override.py:1900} INFO - Created Permission View: can edit on DAG:example_task_group_decorator
+[2024-11-05T00:49:26.843-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:49:26.843-0300] {override.py:1900} INFO - Created Permission View: can read on DAG:example_task_group_decorator
+[2024-11-05T00:49:26.850-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:49:26.849-0300] {override.py:1900} INFO - Created Permission View: can delete on DAG:example_task_group_decorator
+[2024-11-05T00:49:26.860-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:49:26.859-0300] {override.py:1900} INFO - Created Permission View: can create on DAG Run:example_task_group_decorator
+[2024-11-05T00:49:26.866-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:49:26.865-0300] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:example_task_group_decorator
+[2024-11-05T00:49:26.872-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:49:26.872-0300] {override.py:1900} INFO - Created Permission View: can read on DAG Run:example_task_group_decorator
+[2024-11-05T00:49:26.879-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:49:26.879-0300] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:example_task_group_decorator
+[2024-11-05T00:49:26.879-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:49:26.879-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-05T00:49:26.888-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:49:26.888-0300] {dag.py:3262} INFO - Creating ORM DAG for example_task_group_decorator
+[2024-11-05T00:49:26.889-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:49:26.889-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group_decorator to None, run_after=None
+[2024-11-05T00:49:26.904-0300] {processor.py:208} INFO - Processing /home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.162 seconds
+[2024-11-05T00:50:26.136-0300] {processor.py:186} INFO - Started process (PID=6311) to work on /home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2024-11-05T00:50:26.137-0300] {processor.py:914} INFO - Processing file /home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2024-11-05T00:50:26.140-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:50:26.139-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2024-11-05T00:50:26.153-0300] {processor.py:925} INFO - DAG(s) 'example_task_group_decorator' retrieved from /home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2024-11-05T00:50:26.168-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:50:26.168-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-05T00:50:26.176-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:50:26.176-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group_decorator to None, run_after=None
+[2024-11-05T00:50:26.194-0300] {processor.py:208} INFO - Processing /home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.063 seconds

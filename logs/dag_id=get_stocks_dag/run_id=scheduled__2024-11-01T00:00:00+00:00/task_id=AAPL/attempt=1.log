@@ -1,0 +1,66 @@
+[2024-11-05T00:53:44.235-0300] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-05T00:53:44.243-0300] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: get_stocks_dag.AAPL scheduled__2024-11-01T00:00:00+00:00 [queued]>
+[2024-11-05T00:53:44.247-0300] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: get_stocks_dag.AAPL scheduled__2024-11-01T00:00:00+00:00 [queued]>
+[2024-11-05T00:53:44.247-0300] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2024-11-05T00:53:44.257-0300] {taskinstance.py:2888} INFO - Executing <Task(_PythonDecoratedOperator): AAPL> on 2024-11-01 00:00:00+00:00
+[2024-11-05T00:53:44.264-0300] {standard_task_runner.py:72} INFO - Started process 10081 to run task
+[2024-11-05T00:53:44.266-0300] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'get_stocks_dag', 'AAPL', 'scheduled__2024-11-01T00:00:00+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/get_stocks.py', '--cfg-path', '/tmp/tmppzyg0k_z']
+[2024-11-05T00:53:44.268-0300] {standard_task_runner.py:105} INFO - Job 7: Subtask AAPL
+[2024-11-05T00:53:44.303-0300] {task_command.py:467} INFO - Running <TaskInstance: get_stocks_dag.AAPL scheduled__2024-11-01T00:00:00+00:00 [running]> on host lucaires-IdeaPad-3-15ALC6
+[2024-11-05T00:53:44.485-0300] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='get_stocks_dag' AIRFLOW_CTX_TASK_ID='AAPL' AIRFLOW_CTX_EXECUTION_DATE='2024-11-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-11-01T00:00:00+00:00'
+[2024-11-05T00:53:44.486-0300] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-05T00:53:58.423-0300] {python.py:240} INFO - Done. Returned value was: None
+[2024-11-05T00:53:58.427-0300] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-05T00:53:58.427-0300] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=get_stocks_dag, task_id=AAPL, run_id=scheduled__2024-11-01T00:00:00+00:00, execution_date=20241101T000000, start_date=20241105T035344, end_date=20241105T035358
+[2024-11-05T00:53:58.453-0300] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-05T00:53:58.459-0300] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-11-05T00:53:58.460-0300] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2024-11-05T01:14:46.537-0300] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-05T01:14:46.577-0300] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: get_stocks_dag.AAPL scheduled__2024-11-01T00:00:00+00:00 [queued]>
+[2024-11-05T01:14:46.590-0300] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: get_stocks_dag.AAPL scheduled__2024-11-01T00:00:00+00:00 [queued]>
+[2024-11-05T01:14:46.590-0300] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2024-11-05T01:14:46.605-0300] {taskinstance.py:2888} INFO - Executing <Task(_PythonDecoratedOperator): AAPL> on 2024-11-01 00:00:00+00:00
+[2024-11-05T01:14:46.627-0300] {logging_mixin.py:190} WARNING - /home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=26296) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-11-05T01:14:46.629-0300] {standard_task_runner.py:72} INFO - Started process 26584 to run task
+[2024-11-05T01:14:46.632-0300] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'get_stocks_dag', 'AAPL', 'scheduled__2024-11-01T00:00:00+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/get_stocks.py', '--cfg-path', '/tmp/tmp0m03mg69']
+[2024-11-05T01:14:46.637-0300] {standard_task_runner.py:105} INFO - Job 7: Subtask AAPL
+[2024-11-05T01:14:46.762-0300] {task_command.py:467} INFO - Running <TaskInstance: get_stocks_dag.AAPL scheduled__2024-11-01T00:00:00+00:00 [running]> on host lucaires-IdeaPad-3-15ALC6
+[2024-11-05T01:14:46.940-0300] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='get_stocks_dag' AIRFLOW_CTX_TASK_ID='AAPL' AIRFLOW_CTX_EXECUTION_DATE='2024-11-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-11-01T00:00:00+00:00'
+[2024-11-05T01:14:46.941-0300] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-05T01:15:15.951-0300] {python.py:240} INFO - Done. Returned value was: None
+[2024-11-05T01:15:15.965-0300] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-05T01:15:15.965-0300] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=get_stocks_dag, task_id=AAPL, run_id=scheduled__2024-11-01T00:00:00+00:00, execution_date=20241101T000000, start_date=20241105T041446, end_date=20241105T041515
+[2024-11-05T01:15:15.999-0300] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-05T01:15:16.016-0300] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-11-05T01:15:16.017-0300] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2024-11-05T01:27:31.723-0300] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-05T01:27:31.744-0300] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: get_stocks_dag.AAPL scheduled__2024-11-01T00:00:00+00:00 [queued]>
+[2024-11-05T01:27:31.752-0300] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: get_stocks_dag.AAPL scheduled__2024-11-01T00:00:00+00:00 [queued]>
+[2024-11-05T01:27:31.752-0300] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2024-11-05T01:27:31.767-0300] {taskinstance.py:2888} INFO - Executing <Task(_PythonDecoratedOperator): AAPL> on 2024-11-01 00:00:00+00:00
+[2024-11-05T01:27:31.780-0300] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'get_stocks_dag', 'AAPL', 'scheduled__2024-11-01T00:00:00+00:00', '--job-id', '13', '--raw', '--subdir', 'DAGS_FOLDER/get_stocks.py', '--cfg-path', '/tmp/tmp3t5qr2xu']
+[2024-11-05T01:27:31.782-0300] {standard_task_runner.py:105} INFO - Job 13: Subtask AAPL
+[2024-11-05T01:27:31.782-0300] {logging_mixin.py:190} WARNING - /home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=36583) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-11-05T01:27:31.783-0300] {standard_task_runner.py:72} INFO - Started process 36619 to run task
+[2024-11-05T01:27:31.844-0300] {task_command.py:467} INFO - Running <TaskInstance: get_stocks_dag.AAPL scheduled__2024-11-01T00:00:00+00:00 [running]> on host lucaires-IdeaPad-3-15ALC6
+[2024-11-05T01:27:31.935-0300] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='get_stocks_dag' AIRFLOW_CTX_TASK_ID='AAPL' AIRFLOW_CTX_EXECUTION_DATE='2024-11-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-11-01T00:00:00+00:00'
+[2024-11-05T01:27:31.936-0300] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-05T01:27:42.806-0300] {python.py:240} INFO - Done. Returned value was: None
+[2024-11-05T01:27:42.820-0300] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-05T01:27:42.821-0300] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=get_stocks_dag, task_id=AAPL, run_id=scheduled__2024-11-01T00:00:00+00:00, execution_date=20241101T000000, start_date=20241105T042731, end_date=20241105T042742
+[2024-11-05T01:27:42.842-0300] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-05T01:27:42.862-0300] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-11-05T01:27:42.864-0300] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2024-11-05T01:42:12.143-0300] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-05T01:42:13.909-0300] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: get_stocks_dag.AAPL scheduled__2024-11-01T00:00:00+00:00 [queued]>
+[2024-11-05T01:42:13.976-0300] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: get_stocks_dag.AAPL scheduled__2024-11-01T00:00:00+00:00 [queued]>
+[2024-11-05T01:42:13.977-0300] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2024-11-05T01:42:21.948-0300] {taskinstance.py:2888} INFO - Executing <Task(_PythonDecoratedOperator): AAPL> on 2024-11-01 00:00:00+00:00
+[2024-11-05T01:42:22.052-0300] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'get_stocks_dag', 'AAPL', 'scheduled__2024-11-01T00:00:00+00:00', '--job-id', '22', '--raw', '--subdir', 'DAGS_FOLDER/get_stocks.py', '--cfg-path', '/tmp/tmpfmmg5sw9']
+[2024-11-05T01:42:22.054-0300] {standard_task_runner.py:105} INFO - Job 22: Subtask AAPL
+[2024-11-05T01:42:22.074-0300] {warnings.py:112} WARNING - /home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=63345) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-11-05T01:42:22.074-0300] {standard_task_runner.py:72} INFO - Started process 64343 to run task
+[2024-11-05T01:42:36.352-0300] {job.py:229} INFO - Heartbeat recovered after 127.69 seconds
+[2024-11-05T01:42:38.707-0300] {task_command.py:467} INFO - Running <TaskInstance: get_stocks_dag.AAPL scheduled__2024-11-01T00:00:00+00:00 [running]> on host lucaires-IdeaPad-3-15ALC6

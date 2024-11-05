@@ -1,0 +1,22 @@
+[2024-11-05T00:50:08.323-0300] {processor.py:186} INFO - Started process (PID=6129) to work on /home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-11-05T00:50:08.324-0300] {processor.py:914} INFO - Processing file /home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-11-05T00:50:08.326-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:50:08.325-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-11-05T00:50:08.333-0300] {processor.py:925} INFO - DAG(s) 'example_branch_labels' retrieved from /home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-11-05T00:50:08.409-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:50:08.409-0300] {override.py:1900} INFO - Created Permission View: can edit on DAG:example_branch_labels
+[2024-11-05T00:50:08.418-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:50:08.417-0300] {override.py:1900} INFO - Created Permission View: can read on DAG:example_branch_labels
+[2024-11-05T00:50:08.424-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:50:08.423-0300] {override.py:1900} INFO - Created Permission View: can delete on DAG:example_branch_labels
+[2024-11-05T00:50:08.433-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:50:08.433-0300] {override.py:1900} INFO - Created Permission View: can create on DAG Run:example_branch_labels
+[2024-11-05T00:50:08.439-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:50:08.439-0300] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:example_branch_labels
+[2024-11-05T00:50:08.445-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:50:08.445-0300] {override.py:1900} INFO - Created Permission View: can read on DAG Run:example_branch_labels
+[2024-11-05T00:50:08.452-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:50:08.452-0300] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:example_branch_labels
+[2024-11-05T00:50:08.452-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:50:08.452-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-05T00:50:08.460-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:50:08.460-0300] {dag.py:3262} INFO - Creating ORM DAG for example_branch_labels
+[2024-11-05T00:50:08.468-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:50:08.467-0300] {dag.py:4180} INFO - Setting next_dagrun for example_branch_labels to 2024-11-04 00:00:00+00:00, run_after=2024-11-05 00:00:00+00:00
+[2024-11-05T00:50:08.482-0300] {processor.py:208} INFO - Processing /home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.163 seconds
+[2024-11-05T00:51:04.584-0300] {processor.py:186} INFO - Started process (PID=6770) to work on /home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-11-05T00:51:04.586-0300] {processor.py:914} INFO - Processing file /home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-11-05T00:51:04.588-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:51:04.587-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-11-05T00:51:04.596-0300] {processor.py:925} INFO - DAG(s) 'example_branch_labels' retrieved from /home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-11-05T00:51:04.611-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:51:04.610-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-05T00:51:04.627-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:51:04.627-0300] {dag.py:4180} INFO - Setting next_dagrun for example_branch_labels to 2024-11-04 00:00:00+00:00, run_after=2024-11-05 00:00:00+00:00
+[2024-11-05T00:51:04.645-0300] {processor.py:208} INFO - Processing /home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.066 seconds

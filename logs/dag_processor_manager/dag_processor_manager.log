@@ -1,0 +1,710 @@
+[2024-11-05T00:48:45.867-0300] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2024-11-05T00:48:45.867-0300] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2024-11-05T00:48:45.868-0300] {manager.py:485} INFO - Checking for new files in /home/lucaires/Documentos/airflow_financa/dags every 300 seconds
+[2024-11-05T00:48:45.868-0300] {manager.py:821} INFO - Searching for files in /home/lucaires/Documentos/airflow_financa/dags
+[2024-11-05T00:48:45.922-0300] {manager.py:824} INFO - There are 57 files in /home/lucaires/Documentos/airflow_financa/dags
+[2024-11-05T00:48:46.339-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lucaires/Documentos/airflow_financa/dags/get_stocks.py                                                                                                                      0           0  0.31s           2024-11-05T03:48:46                       3
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py                                                                  0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py                                                             0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py                                                                   0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_dataset_alias.py                                                             0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py                                                             0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py                                                                   0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py                                                            0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py                                                           0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py                                                            0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py                                                                      0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py                                                                  0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py                                                           0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py                                                              0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py                                                               0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_workday_timetable.py                                                         0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py                                                                   0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_outlet_event_extra.py                                                        0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/tutorial.py                                                                          0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_datasets.py                                                                  0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py                                                           0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py                                                             0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_inlet_event_extra.py                                                         0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py                                                          0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py                                                                      0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_dataset_alias_with_no_taskflow.py                                            0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py                                                                0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py                                       0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0                                                            0
+================================================================================
+[2024-11-05T00:48:56.012-0300] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2024-11-05T00:49:11.729-0300] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2024-11-05T00:49:11.729-0300] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2024-11-05T00:49:11.729-0300] {manager.py:485} INFO - Checking for new files in /home/lucaires/Documentos/airflow_financa/dags every 300 seconds
+[2024-11-05T00:49:11.729-0300] {manager.py:821} INFO - Searching for files in /home/lucaires/Documentos/airflow_financa/dags
+[2024-11-05T00:49:11.739-0300] {manager.py:824} INFO - There are 57 files in /home/lucaires/Documentos/airflow_financa/dags
+[2024-11-05T00:49:11.994-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lucaires/Documentos/airflow_financa/dags/get_stocks.py                                                                                                                      0           0  0.21s           2024-11-05T03:49:11                       3
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py                                                                  0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py                                                             0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py                                                                   0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_dataset_alias.py                                                             0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py                                                             0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py                                                                   0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py                                                            0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py                                                           0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py                                                            0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py                                                                      0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py                                                                  0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py                                                           0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py                                                              0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py                                                               0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_workday_timetable.py                                                         0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py                                                                   0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_outlet_event_extra.py                                                        0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/tutorial.py                                                                          0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_datasets.py                                                                  0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py                                                           0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py                                                             0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_inlet_event_extra.py                                                         0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py                                                          0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py                                                                      0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_dataset_alias_with_no_taskflow.py                                            0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py                                                                0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py                                       0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0                                                            0
+================================================================================
+[2024-11-05T00:49:42.182-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           1           0  0.31s           2024-11-05T03:49:41                      45
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py                                                                  2           0  0.31s           2024-11-05T03:49:25                      79
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py                                                           3           0  0.31s           2024-11-05T03:49:24                      53
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_workday_timetable.py                                                         1           0  0.31s           2024-11-05T03:49:27                      45
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        1           0  0.21s           2024-11-05T03:49:40                      43
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    1           0  0.21s           2024-11-05T03:49:37                      43
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py                                                                   1           0  0.21s           2024-11-05T03:49:23                      45
+/home/lucaires/Documentos/airflow_financa/dags/get_stocks.py                                                                                                                      0           0  0.21s           2024-11-05T03:49:11                       3
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   1           0  0.21s           2024-11-05T03:49:37                      43
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      1           0  0.21s           2024-11-05T03:49:26                      43
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py                                                                      1           0  0.21s           2024-11-05T03:49:32                      45
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py                                                                1           0  0.21s           2024-11-05T03:49:32                      43
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py                                                           1           0  0.21s           2024-11-05T03:49:42                      43
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py                                                            1           0  0.21s           2024-11-05T03:49:36                      43
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py                                                                  1           0  0.21s           2024-11-05T03:49:35                      45
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py                                                                   1           0  0.21s           2024-11-05T03:49:39                      43
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    1           0  0.21s           2024-11-05T03:49:21                      45
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   1           0  0.21s           2024-11-05T03:49:28                      43
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        1           0  0.21s           2024-11-05T03:49:31                      43
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/tutorial.py                                                                          1           0  0.21s           2024-11-05T03:49:29                      45
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          1           0  0.21s           2024-11-05T03:49:33                      43
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0  0.11s           2024-11-05T03:49:21                       3
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0  0.11s           2024-11-05T03:49:13                       3
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0  0.11s           2024-11-05T03:49:19                       3
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py                                                                      1           0  0.11s           2024-11-05T03:49:15                       9
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  0           0  0.11s           2024-11-05T03:49:16                       3
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py                                       0           0  0.11s           2024-11-05T03:49:20                       3
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0  0.11s           2024-11-05T03:49:17                       3
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             1           0  0.11s           2024-11-05T03:49:14                       9
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            1           0  0.11s           2024-11-05T03:49:16                       9
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py                                                             0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py                                                                   0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_dataset_alias.py                                                             0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py                                                             0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py                                                            0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py                                                           0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py                                                              0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py                                                               0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_outlet_event_extra.py                                                        0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_datasets.py                                                                  0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py                                                             0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_inlet_event_extra.py                                                         0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py                                                          0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   0           0                                                            0
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_dataset_alias_with_no_taskflow.py                                            0           0                                                            0
+================================================================================
+[2024-11-05T00:50:12.666-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_datasets.py                                                                 10           0  0.81s           2024-11-05T03:50:07                     379
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_dataset_alias.py                                                             4           0  0.51s           2024-11-05T03:49:58                     157
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_inlet_event_extra.py                                                         2           0  0.41s           2024-11-05T03:49:54                      81
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_dataset_alias_with_no_taskflow.py                                            4           0  0.41s           2024-11-05T03:50:09                     157
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           1           0  0.31s           2024-11-05T03:49:41                      45
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py                                                             1           0  0.31s           2024-11-05T03:50:00                      43
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py                                                             1           0  0.31s           2024-11-05T03:50:10                      45
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py                                                                  2           0  0.31s           2024-11-05T03:49:25                      79
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         1           0  0.31s           2024-11-05T03:49:45                      43
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  3           0  0.31s           2024-11-05T03:49:56                     117
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_outlet_event_extra.py                                                        3           0  0.31s           2024-11-05T03:49:52                     118
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py                                                           3           0  0.31s           2024-11-05T03:49:24                      53
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_workday_timetable.py                                                         1           0  0.31s           2024-11-05T03:49:27                      45
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  2           0  0.31s           2024-11-05T03:49:44                      79
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         1           0  0.21s           2024-11-05T03:49:50                      45
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        1           0  0.21s           2024-11-05T03:49:40                      43
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              1           0  0.21s           2024-11-05T03:50:02                      45
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    1           0  0.21s           2024-11-05T03:49:37                      43
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py                                                                   1           0  0.21s           2024-11-05T03:49:23                      45
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   1           0  0.21s           2024-11-05T03:49:43                      43
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  1           0  0.21s           2024-11-05T03:49:53                      45
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   1           0  0.21s           2024-11-05T03:49:37                      43
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      1           0  0.21s           2024-11-05T03:49:26                      43
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           1           0  0.21s           2024-11-05T03:49:48                      43
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py                                                                      1           0  0.21s           2024-11-05T03:49:32                      45
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py                                                                1           0  0.21s           2024-11-05T03:49:32                      43
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py                                                             1           0  0.21s           2024-11-05T03:50:08                      45
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py                                                           1           0  0.21s           2024-11-05T03:49:42                      43
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      1           0  0.21s           2024-11-05T03:49:52                      43
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py                                                            1           0  0.21s           2024-11-05T03:49:36                      43
+/home/lucaires/Documentos/airflow_financa/dags/get_stocks.py                                                                                                                      0           0  0.21s           2024-11-05T03:50:12                       3
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               1           0  0.21s           2024-11-05T03:50:05                      45
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py                                                            1           0  0.21s           2024-11-05T03:50:11                      43
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py                                                                  1           0  0.21s           2024-11-05T03:49:35                      45
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py                                                              1           0  0.21s           2024-11-05T03:50:04                      43
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py                                                          1           0  0.21s           2024-11-05T03:49:42                      43
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py                                                                   1           0  0.21s           2024-11-05T03:49:57                      43
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py                                                               1           0  0.21s           2024-11-05T03:49:49                      45
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py                                                                   1           0  0.21s           2024-11-05T03:49:39                      43
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    1           0  0.21s           2024-11-05T03:49:21                      45
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   1           0  0.21s           2024-11-05T03:49:28                      43
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        1           0  0.21s           2024-11-05T03:49:31                      43
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/tutorial.py                                                                          1           0  0.21s           2024-11-05T03:49:29                      45
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          1           0  0.21s           2024-11-05T03:49:33                      43
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0  0.11s           2024-11-05T03:49:21                       3
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py                                                           0           0  0.11s           2024-11-05T03:50:03                       3
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 0           0  0.11s           2024-11-05T03:50:01                       3
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0  0.11s           2024-11-05T03:49:13                       3
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0  0.11s           2024-11-05T03:49:47                       3
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0  0.11s           2024-11-05T03:49:46                       3
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0  0.11s           2024-11-05T03:49:19                       3
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py                                                                      1           0  0.11s           2024-11-05T03:49:15                       9
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  0           0  0.11s           2024-11-05T03:49:16                       3
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py                                       0           0  0.11s           2024-11-05T03:49:20                       3
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0  0.11s           2024-11-05T03:49:17                       3
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             1           0  0.11s           2024-11-05T03:49:14                       9
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            1           0  0.11s           2024-11-05T03:49:16                       9
+================================================================================
+[2024-11-05T00:50:42.893-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_datasets.py                                                                 10           0  0.81s           2024-11-05T03:50:07                     379
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_dataset_alias.py                                                             4           0  0.51s           2024-11-05T03:49:58                     157
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_inlet_event_extra.py                                                         2           0  0.41s           2024-11-05T03:49:54                      81
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_dataset_alias_with_no_taskflow.py                                            4           0  0.41s           2024-11-05T03:50:09                     157
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py                                                             1           0  0.31s           2024-11-05T03:50:00                      43
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py                                                             1           0  0.31s           2024-11-05T03:50:10                      45
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         1           0  0.31s           2024-11-05T03:49:45                      43
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  3           0  0.31s           2024-11-05T03:49:56                     117
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_outlet_event_extra.py                                                        3           0  0.31s           2024-11-05T03:49:52                     118
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  2           0  0.31s           2024-11-05T03:49:44                      79
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         1           0  0.21s           2024-11-05T03:49:50                      45
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              1           0  0.21s           2024-11-05T03:50:02                      45
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   1           0  0.21s           2024-11-05T03:49:43                      43
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  1           0  0.21s           2024-11-05T03:49:53                      45
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           1           0  0.21s           2024-11-05T03:49:48                      43
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py                                                             1           0  0.21s           2024-11-05T03:50:08                      45
+/home/lucaires/Documentos/airflow_financa/dags/get_stocks.py                                                                                                                      0           0  0.21s           2024-11-05T03:50:42                       3
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      1           0  0.21s           2024-11-05T03:49:52                      43
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               1           0  0.21s           2024-11-05T03:50:05                      45
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py                                                            1           0  0.21s           2024-11-05T03:50:11                      43
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py                                                              1           0  0.21s           2024-11-05T03:50:04                      43
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_complex.py                                                                   1           0  0.21s           2024-11-05T03:49:57                      43
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py                                                               1           0  0.21s           2024-11-05T03:49:49                      45
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py                                                                1           0  0.11s           2024-11-05T03:50:31                      10
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          1           0  0.11s           2024-11-05T03:50:32                      10
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py                                                                   1           0  0.11s           2024-11-05T03:50:22                      12
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      1           0  0.11s           2024-11-05T03:50:26                      10
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py                                                           0           0  0.11s           2024-11-05T03:50:03                       3
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             1           0  0.11s           2024-11-05T03:50:13                      10
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 0           0  0.11s           2024-11-05T03:50:01                       3
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        1           0  0.11s           2024-11-05T03:50:38                      10
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py                                                                  1           0  0.11s           2024-11-05T03:50:33                      12
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        1           0  0.11s           2024-11-05T03:50:30                      10
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py                                       0           0  0.11s           2024-11-05T03:50:19                       3
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0  0.11s           2024-11-05T03:49:47                       3
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   1           0  0.11s           2024-11-05T03:50:27                      10
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0  0.11s           2024-11-05T03:49:46                       3
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0  0.11s           2024-11-05T03:50:19                       3
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0  0.11s           2024-11-05T03:50:12                       3
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py                                                            1           0  0.11s           2024-11-05T03:50:34                      10
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py                                                                      1           0  0.11s           2024-11-05T03:50:30                      12
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0  0.11s           2024-11-05T03:50:18                       3
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  0           0  0.11s           2024-11-05T03:50:15                       3
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py                                                           3           0  0.11s           2024-11-05T03:50:24                      20
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    1           0  0.11s           2024-11-05T03:50:36                      10
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   1           0  0.11s           2024-11-05T03:50:35                      10
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0  0.11s           2024-11-05T03:50:21                       3
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py                                                                      1           0  0.11s           2024-11-05T03:50:14                      10
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py                                                           1           0  0.11s           2024-11-05T03:50:40                      10
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/tutorial.py                                                                          1           0  0.11s           2024-11-05T03:50:28                      12
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           1           0  0.11s           2024-11-05T03:50:39                      12
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py                                                                  2           0  0.11s           2024-11-05T03:50:25                      13
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py                                                          1           0  0.11s           2024-11-05T03:50:41                      10
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_workday_timetable.py                                                         1           0  0.11s           2024-11-05T03:50:27                      12
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            1           0  0.11s           2024-11-05T03:50:17                      10
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    1           0  0.11s           2024-11-05T03:50:22                      12
+/home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py                                                                   1           0  0.11s           2024-11-05T03:50:37                      10
+================================================================================
+[2024-11-05T00:51:10.635-0300] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2024-11-05T00:51:19.675-0300] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2024-11-05T00:51:19.675-0300] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2024-11-05T00:51:19.675-0300] {manager.py:485} INFO - Checking for new files in /home/lucaires/Documentos/airflow_financa/dags every 300 seconds
+[2024-11-05T00:51:19.675-0300] {manager.py:821} INFO - Searching for files in /home/lucaires/Documentos/airflow_financa/dags
+[2024-11-05T00:51:19.676-0300] {manager.py:824} INFO - There are 1 files in /home/lucaires/Documentos/airflow_financa/dags
+[2024-11-05T00:51:20.348-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lucaires/Documentos/airflow_financa/dags/get_stocks.py                           0           0  0.61s           2024-11-05T03:51:20                       3
+================================================================================
+[2024-11-05T00:51:50.900-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lucaires/Documentos/airflow_financa/dags/get_stocks.py                           1           0  0.71s           2024-11-05T03:51:46                      45
+================================================================================
+[2024-11-05T00:52:24.376-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lucaires/Documentos/airflow_financa/dags/get_stocks.py                           1           0  0.71s           2024-11-05T03:52:24                      12
+================================================================================
+[2024-11-05T00:52:56.818-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lucaires/Documentos/airflow_financa/dags/get_stocks.py                           1           0  0.51s           2024-11-05T03:52:56                      12
+================================================================================
+[2024-11-05T00:53:27.462-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lucaires/Documentos/airflow_financa/dags/get_stocks.py                           1           0  0.61s           2024-11-05T03:53:04                      34
+================================================================================
+[2024-11-05T00:54:34.987-0300] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2024-11-05T00:54:35.256-0300] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2024-11-05T00:54:35.256-0300] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2024-11-05T00:54:35.256-0300] {manager.py:485} INFO - Checking for new files in /home/lucaires/Documentos/airflow_financa/dags every 300 seconds
+[2024-11-05T00:54:35.256-0300] {manager.py:821} INFO - Searching for files in /home/lucaires/Documentos/airflow_financa/dags
+[2024-11-05T00:54:35.257-0300] {manager.py:824} INFO - There are 1 files in /home/lucaires/Documentos/airflow_financa/dags
+[2024-11-05T00:54:35.800-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lucaires/Documentos/airflow_financa/dags/get_stocks.py                           1           0  0.51s           2024-11-05T03:54:35                      12
+================================================================================
+[2024-11-05T00:55:08.767-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lucaires/Documentos/airflow_financa/dags/get_stocks.py                           1           0  0.51s           2024-11-05T03:55:08                      12
+================================================================================
+[2024-11-05T00:55:40.099-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lucaires/Documentos/airflow_financa/dags/get_stocks.py                           1           0  0.62s           2024-11-05T03:55:40                      12
+================================================================================
+[2024-11-05T00:55:48.196-0300] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2024-11-05T01:14:17.113-0300] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2024-11-05T01:14:17.114-0300] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2024-11-05T01:14:17.114-0300] {manager.py:485} INFO - Checking for new files in /home/lucaires/Documentos/airflow_financa/dags every 300 seconds
+[2024-11-05T01:14:17.114-0300] {manager.py:821} INFO - Searching for files in /home/lucaires/Documentos/airflow_financa/dags
+[2024-11-05T01:14:17.116-0300] {manager.py:824} INFO - There are 1 files in /home/lucaires/Documentos/airflow_financa/dags
+[2024-11-05T01:14:17.192-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+------------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/home/lucaires/Documentos/airflow_financa/dags/get_stocks.py  25415  0.02s             0           0                                                   0
+================================================================================
+[2024-11-05T01:14:47.314-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lucaires/Documentos/airflow_financa/dags/get_stocks.py                           1           0  0.82s           2024-11-05T04:14:17                      45
+================================================================================
+[2024-11-05T01:15:17.444-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lucaires/Documentos/airflow_financa/dags/get_stocks.py                           1           0  0.69s           2024-11-05T04:14:48                      12
+================================================================================
+[2024-11-05T01:15:47.581-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lucaires/Documentos/airflow_financa/dags/get_stocks.py                           1           0  0.54s           2024-11-05T04:15:19                      12
+================================================================================
+[2024-11-05T01:16:17.752-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lucaires/Documentos/airflow_financa/dags/get_stocks.py                           1           0  0.61s           2024-11-05T04:15:50                      12
+================================================================================
+[2024-11-05T01:16:32.354-0300] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2024-11-05T01:26:28.303-0300] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2024-11-05T01:26:28.311-0300] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2024-11-05T01:26:28.312-0300] {manager.py:485} INFO - Checking for new files in /home/lucaires/Documentos/airflow_financa/dags every 300 seconds
+[2024-11-05T01:26:28.312-0300] {manager.py:821} INFO - Searching for files in /home/lucaires/Documentos/airflow_financa/dags
+[2024-11-05T01:26:28.313-0300] {manager.py:824} INFO - There are 1 files in /home/lucaires/Documentos/airflow_financa/dags
+[2024-11-05T01:26:28.378-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+------------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/home/lucaires/Documentos/airflow_financa/dags/get_stocks.py  34196  0.02s             0           0                                                   0
+================================================================================
+[2024-11-05T01:26:58.512-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lucaires/Documentos/airflow_financa/dags/get_stocks.py                           1           0  0.55s           2024-11-05T04:26:28                      12
+================================================================================
+[2024-11-05T01:27:28.649-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lucaires/Documentos/airflow_financa/dags/get_stocks.py                           1           0  0.81s           2024-11-05T04:26:59                      33
+================================================================================
+[2024-11-05T01:27:58.771-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lucaires/Documentos/airflow_financa/dags/get_stocks.py                           1           0  0.66s           2024-11-05T04:27:30                      12
+================================================================================
+[2024-11-05T01:28:29.244-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lucaires/Documentos/airflow_financa/dags/get_stocks.py                           1           0  0.66s           2024-11-05T04:28:01                      12
+================================================================================
+[2024-11-05T01:28:59.291-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lucaires/Documentos/airflow_financa/dags/get_stocks.py                           1           0  0.59s           2024-11-05T04:28:32                      12
+================================================================================
+[2024-11-05T01:29:29.838-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lucaires/Documentos/airflow_financa/dags/get_stocks.py                           1           0  0.57s           2024-11-05T04:29:02                      12
+================================================================================
+[2024-11-05T01:30:00.117-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lucaires/Documentos/airflow_financa/dags/get_stocks.py                           1           0  0.51s           2024-11-05T04:29:33                      12
+================================================================================
+[2024-11-05T01:30:30.262-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lucaires/Documentos/airflow_financa/dags/get_stocks.py                           1           0  0.65s           2024-11-05T04:30:04                      12
+================================================================================
+[2024-11-05T01:31:00.531-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lucaires/Documentos/airflow_financa/dags/get_stocks.py                           1           0  0.63s           2024-11-05T04:30:35                      12
+================================================================================
+[2024-11-05T01:31:28.660-0300] {manager.py:821} INFO - Searching for files in /home/lucaires/Documentos/airflow_financa/dags
+[2024-11-05T01:31:28.665-0300] {manager.py:824} INFO - There are 1 files in /home/lucaires/Documentos/airflow_financa/dags
+[2024-11-05T01:31:30.684-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lucaires/Documentos/airflow_financa/dags/get_stocks.py                           1           0  0.60s           2024-11-05T04:31:05                      12
+================================================================================
+[2024-11-05T01:32:01.024-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lucaires/Documentos/airflow_financa/dags/get_stocks.py                           1           0  0.58s           2024-11-05T04:31:36                      12
+================================================================================
+[2024-11-05T01:32:31.161-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lucaires/Documentos/airflow_financa/dags/get_stocks.py                           1           0  0.62s           2024-11-05T04:32:07                      12
+================================================================================
+[2024-11-05T01:33:01.196-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lucaires/Documentos/airflow_financa/dags/get_stocks.py                           1           0  0.69s           2024-11-05T04:32:38                      12
+================================================================================
+[2024-11-05T01:33:31.665-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lucaires/Documentos/airflow_financa/dags/get_stocks.py                           1           0  0.67s           2024-11-05T04:33:08                      12
+================================================================================
+[2024-11-05T01:34:01.799-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lucaires/Documentos/airflow_financa/dags/get_stocks.py                           1           0  0.68s           2024-11-05T04:33:39                      12
+================================================================================
+[2024-11-05T01:34:31.968-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lucaires/Documentos/airflow_financa/dags/get_stocks.py                           1           0  0.74s           2024-11-05T04:34:10                      12
+================================================================================
+[2024-11-05T01:35:02.115-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lucaires/Documentos/airflow_financa/dags/get_stocks.py                           1           0  0.65s           2024-11-05T04:34:41                      12
+================================================================================
+[2024-11-05T01:35:32.274-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lucaires/Documentos/airflow_financa/dags/get_stocks.py                           1           0  0.65s           2024-11-05T04:35:12                      12
+================================================================================
+[2024-11-05T01:35:34.315-0300] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2024-11-05T01:36:29.966-0300] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2024-11-05T01:36:29.966-0300] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2024-11-05T01:36:29.966-0300] {manager.py:485} INFO - Checking for new files in /home/lucaires/Documentos/airflow_financa/dags every 300 seconds
+[2024-11-05T01:36:29.966-0300] {manager.py:821} INFO - Searching for files in /home/lucaires/Documentos/airflow_financa/dags
+[2024-11-05T01:36:29.968-0300] {manager.py:824} INFO - There are 1 files in /home/lucaires/Documentos/airflow_financa/dags
+[2024-11-05T01:36:30.032-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+------------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/home/lucaires/Documentos/airflow_financa/dags/get_stocks.py  53111  0.02s             0           0                                                   0
+================================================================================
+[2024-11-05T01:37:00.162-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lucaires/Documentos/airflow_financa/dags/get_stocks.py                           1           0  0.59s           2024-11-05T04:36:30                      12
+================================================================================
+[2024-11-05T01:37:30.299-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lucaires/Documentos/airflow_financa/dags/get_stocks.py                           1           0  0.63s           2024-11-05T04:37:01                      12
+================================================================================
+[2024-11-05T01:38:00.631-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lucaires/Documentos/airflow_financa/dags/get_stocks.py                           1           0  0.57s           2024-11-05T04:37:32                      33
+================================================================================
+[2024-11-05T01:38:30.777-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lucaires/Documentos/airflow_financa/dags/get_stocks.py                           1           0  0.61s           2024-11-05T04:38:02                      12
+================================================================================
+[2024-11-05T01:39:01.077-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lucaires/Documentos/airflow_financa/dags/get_stocks.py                           1           0  0.59s           2024-11-05T04:38:33                      12
+================================================================================
+[2024-11-05T01:39:31.215-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lucaires/Documentos/airflow_financa/dags/get_stocks.py                           1           0  0.57s           2024-11-05T04:39:04                      12
+================================================================================
+[2024-11-05T01:40:01.488-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lucaires/Documentos/airflow_financa/dags/get_stocks.py                           1           0  0.60s           2024-11-05T04:39:34                      12
+================================================================================
+[2024-11-05T01:40:59.841-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lucaires/Documentos/airflow_financa/dags/get_stocks.py  63427  0.15s             1           0  0.53s           2024-11-05T04:40:05                      12
+================================================================================
+[2024-11-05T01:41:30.480-0300] {manager.py:821} INFO - Searching for files in /home/lucaires/Documentos/airflow_financa/dags
+[2024-11-05T01:41:31.076-0300] {manager.py:824} INFO - There are 1 files in /home/lucaires/Documentos/airflow_financa/dags
+[2024-11-05T01:42:06.444-0300] {manager.py:1366} ERROR - Processor for /home/lucaires/Documentos/airflow_financa/dags/get_stocks.py with PID 63427 started at 2024-11-05T04:40:59.148314+00:00 has timed out, killing it.
+[2024-11-05T01:42:11.248-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lucaires/Documentos/airflow_financa/dags/get_stocks.py                           0           1  66.97s          2024-11-05T04:42:06                       0
+================================================================================
+[2024-11-05T01:42:54.981-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lucaires/Documentos/airflow_financa/dags/get_stocks.py  64509  16.34s            0           1  66.97s          2024-11-05T04:42:06                       0
+================================================================================

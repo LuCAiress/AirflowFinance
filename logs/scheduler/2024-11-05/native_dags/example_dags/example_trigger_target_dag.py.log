@@ -1,0 +1,22 @@
+[2024-11-05T00:49:30.808-0300] {processor.py:186} INFO - Started process (PID=5550) to work on /home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-11-05T00:49:30.809-0300] {processor.py:914} INFO - Processing file /home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-11-05T00:49:30.811-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:49:30.810-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-11-05T00:49:30.817-0300] {processor.py:925} INFO - DAG(s) 'example_trigger_target_dag' retrieved from /home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-11-05T00:49:30.897-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:49:30.896-0300] {override.py:1900} INFO - Created Permission View: can edit on DAG:example_trigger_target_dag
+[2024-11-05T00:49:30.905-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:49:30.905-0300] {override.py:1900} INFO - Created Permission View: can read on DAG:example_trigger_target_dag
+[2024-11-05T00:49:30.912-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:49:30.911-0300] {override.py:1900} INFO - Created Permission View: can delete on DAG:example_trigger_target_dag
+[2024-11-05T00:49:30.921-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:49:30.921-0300] {override.py:1900} INFO - Created Permission View: can create on DAG Run:example_trigger_target_dag
+[2024-11-05T00:49:30.928-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:49:30.927-0300] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:example_trigger_target_dag
+[2024-11-05T00:49:30.934-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:49:30.934-0300] {override.py:1900} INFO - Created Permission View: can read on DAG Run:example_trigger_target_dag
+[2024-11-05T00:49:30.940-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:49:30.939-0300] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:example_trigger_target_dag
+[2024-11-05T00:49:30.940-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:49:30.940-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-05T00:49:30.949-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:49:30.949-0300] {dag.py:3262} INFO - Creating ORM DAG for example_trigger_target_dag
+[2024-11-05T00:49:30.949-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:49:30.949-0300] {dag.py:4180} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-11-05T00:49:30.964-0300] {processor.py:208} INFO - Processing /home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.161 seconds
+[2024-11-05T00:50:29.984-0300] {processor.py:186} INFO - Started process (PID=6391) to work on /home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-11-05T00:50:29.987-0300] {processor.py:914} INFO - Processing file /home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-11-05T00:50:29.989-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:50:29.989-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-11-05T00:50:29.996-0300] {processor.py:925} INFO - DAG(s) 'example_trigger_target_dag' retrieved from /home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-11-05T00:50:30.008-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:50:30.008-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-05T00:50:30.018-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:50:30.017-0300] {dag.py:4180} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-11-05T00:50:30.039-0300] {processor.py:208} INFO - Processing /home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.060 seconds

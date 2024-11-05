@@ -1,0 +1,22 @@
+[2024-11-05T00:49:33.576-0300] {processor.py:186} INFO - Started process (PID=5567) to work on /home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-11-05T00:49:33.577-0300] {processor.py:914} INFO - Processing file /home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2024-11-05T00:49:33.578-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:49:33.578-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-11-05T00:49:33.585-0300] {processor.py:925} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-11-05T00:49:33.662-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:49:33.661-0300] {override.py:1900} INFO - Created Permission View: can edit on DAG:example_sensor_decorator
+[2024-11-05T00:49:33.671-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:49:33.670-0300] {override.py:1900} INFO - Created Permission View: can read on DAG:example_sensor_decorator
+[2024-11-05T00:49:33.677-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:49:33.677-0300] {override.py:1900} INFO - Created Permission View: can delete on DAG:example_sensor_decorator
+[2024-11-05T00:49:33.690-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:49:33.690-0300] {override.py:1900} INFO - Created Permission View: can create on DAG Run:example_sensor_decorator
+[2024-11-05T00:49:33.698-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:49:33.698-0300] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:example_sensor_decorator
+[2024-11-05T00:49:33.707-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:49:33.707-0300] {override.py:1900} INFO - Created Permission View: can read on DAG Run:example_sensor_decorator
+[2024-11-05T00:49:33.716-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:49:33.716-0300] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:example_sensor_decorator
+[2024-11-05T00:49:33.717-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:49:33.717-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-05T00:49:33.728-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:49:33.728-0300] {dag.py:3262} INFO - Creating ORM DAG for example_sensor_decorator
+[2024-11-05T00:49:33.729-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:49:33.729-0300] {dag.py:4180} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2024-11-05T00:49:33.751-0300] {processor.py:208} INFO - Processing /home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.179 seconds
+[2024-11-05T00:50:32.417-0300] {processor.py:186} INFO - Started process (PID=6435) to work on /home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-11-05T00:50:32.421-0300] {processor.py:914} INFO - Processing file /home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2024-11-05T00:50:32.423-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:50:32.423-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-11-05T00:50:32.430-0300] {processor.py:925} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-11-05T00:50:32.445-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:50:32.445-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-05T00:50:32.456-0300] {logging_mixin.py:190} INFO - [2024-11-05T00:50:32.456-0300] {dag.py:4180} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2024-11-05T00:50:32.478-0300] {processor.py:208} INFO - Processing /home/lucaires/anaconda3/envs/venv_airflow/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.065 seconds
